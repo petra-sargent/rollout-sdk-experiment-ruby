@@ -1,0 +1,36 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.6.0)
+      public_suffix (>= 2.0.2, < 4.0)
+    byebug (11.0.1)
+    cookiejar (0.3.3)
+    em-eventsource (0.3.1)
+      em-http-request (~> 1.0)
+      eventmachine (~> 1.0)
+    em-http-request (1.1.5)
+      addressable (>= 2.3.4)
+      cookiejar (!= 0.3.1)
+      em-socksify (>= 0.3)
+      eventmachine (>= 1.0.3)
+      http_parser.rb (>= 0.6.0)
+    em-socksify (0.3.2)
+      eventmachine (>= 1.0.0.beta.4)
+    eventmachine (1.2.7)
+    http_parser.rb (0.6.0)
+    public_suffix (3.1.1)
+    rox-rollout (4.1.0)
+      em-eventsource (~> 0.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  rox-rollout
+
+RUBY VERSION
+   ruby 2.6.3p62
+
+BUNDLED WITH
+   1.17.2
